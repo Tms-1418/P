@@ -1,0 +1,74 @@
+body {
+    background: linear-gradient(135deg, #ffe6f0, #fff5f9);
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.contenedor {
+    background-color: white;
+    width: 750px;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 0 15px 40px rgba(255, 105, 180, 0.2);
+    position: relative;
+}
+
+.contenedor::before {
+    content: "❤";
+    font-size: 40px;
+    color: #ff69b4;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    opacity: 0.3;
+}
+
+h1 {
+    text-align: center;
+    color: #d63384;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #c2185b;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+img {
+    display: block;
+    margin: 0 auto 25px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #ffb6c1;
+    box-shadow: 0 10px 25px rgba(255, 105, 180, 0.3);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.seccion {
+    margin-top: 35px;
+}
+
+h3 {
+    color: #d63384;
+    border-bottom: 2px solid #ffb6c1;
+    padding-bottom: 8px;
+    font-size: 22px;
+}
+
+p {
+    margin-top: 12px;
+    line-height: 1.8;
+    color: #444;
+    font-size: 16px;
+}
